@@ -92,4 +92,5 @@ def calculate_boys_Zscore():
                     return "Unable to categorize"
         return "Height not found in the data."
 
-main()
+if __name__=="__main__":
+    main(
